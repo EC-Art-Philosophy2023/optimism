@@ -59,7 +59,7 @@ type Config struct {
 type Miner struct {
 	mux      *event.TypeMux
 	worker   *worker
-	coinbase common.Address
+	coinbase common.a
 	eth      Backend
 	engine   consensus.Engine
 	exitCh   chan struct{}
